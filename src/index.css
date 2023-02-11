@@ -1,13 +1,93 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: url("https://images.wallpaperscraft.com/image/single/cup_coffee_books_156306_1920x1080.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1,
+p {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+}
+
+button {
+  margin-top: 10px;
+}
+ul {
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+.stores {
+  width: 100%;
+}
+.form-box {
+  max-width: 500px;
+  margin: auto;
+  padding: 50px;
+  background: #ffffff;
+  border: 10px solid #f2f2f2;
+}
+
+#mee {
+  height: 165px;
+  overflow: auto;
+}
+.select {
+  display: block;
+  margin: 8px;
+}
+label {
+  margin: 5px;
+}
+.dropdown {
+  background-color: rgb(235, 226, 226);
+  display: flex;
+  flex-direction: column;
+  margin-top: 6px;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+
+.dropdown:empty {
+  border: none;
+}
+
+.dropdown-row {
+  cursor: pointer;
+  text-align: start;
+  margin: 3.5px 0;
+}
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+.first {
+  color: green;
+}
+.second {
+  color: greenyellow;
+}
+.card-details {
+  font-weight: bolder;
+  font-size: 17px;
+}
+.card-title {
+  font-size: 25px;
+}
+.btn-success {
+  background-color: green !important;
+}
+.btn-success:hover {
+  background-color: greenyellow !important;
+  color: black;
+}
+.page {
+  max-width: 500px;
 }
