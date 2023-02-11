@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+Introduction:
+The purpose of this project is to create a web application for storing data of shops for Retail Manager with their locations and can add more number of shops.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Features:
 
-## Available Scripts
+1. Real time searching of shops with their names
+2. Fast and simple user interface.
 
-In the project directory, you can run:
+Technologies:
 
-### `npm start`
+ReactJS: The main front-end framework for the web application.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* How to run this application ?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Install Node.js and npm (Node Package Manager) on your computer. These tools are required to run a React project.
 
-### `npm test`
+Clone or download the source code of this project.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Open a terminal or command prompt and navigate to the root directory of the project.
 
-### `npm run build`
+Run the following command to install the project dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+After the dependencies have been installed, run the following command to start the development server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* npm start
 
-### `npm run eject`
+The development server will start and you should see a message in the terminal or command prompt indicating that the server is running.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Open a web browser and go to the URL http://localhost:3000/ to view the application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+You should now be able to see the React application running in your web browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* How to build this application ?
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. create a basic react project using 
+    * create-react-app
+2. Add bootstrap CDN links
+3. Create components folder and add the components such as
+    * Navbar
+    * HomePage
+    * AddStore
+4. install axios or you can even use fetch function.
+5. using this API : "https://random-data-api.com/api/v2/users?size=2&is_xml=true"
+    create random users, in which we also get address of the users.
+6. We are only going to use "city" value in the address part.
